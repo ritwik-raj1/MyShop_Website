@@ -1,0 +1,158 @@
+
+
+#nav_bar a{
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 20px;
+    color: black;
+    transition-duration: 0.3s;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    background-color:rgba(239, 154, 44, 0.332);
+    
+}
+
+#nav_bar{
+    padding: 10px;
+    display: flex;
+    column-gap: 30px;
+    border: 10px;
+    border-color: #fb6376;
+}
+
+/* Hover effect */
+#nav_bar a:hover{
+    color: #fb6376;
+    
+}
+
+body{
+    margin: 0;
+}
+
+#Intro{
+    /* background-color: #432E36;
+    color: antiquewhite; */
+    display: flex;
+    width: 1100px;
+    margin: 70px auto;
+    justify-content: space-between;
+}
+
+#Intro h1{font-size: 40px;}
+#Intro p{font-size: 20px; margin-bottom: 40px;}
+
+#Intro a{
+    background-color: #4210b8;
+    color: #E9E6F0;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+#Intro a:hover{cursor: pointer; background-color: aquamarine; color:#2B2343}
+
+main{
+    display: flex;
+}
+
+.product_status{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.product_status a, .productCard a{
+    color: darkgoldenrod;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.product_status a:hover, .productCard a:hover{
+    color: #fb6376;
+}
+
+.product_status h2{ margin: 0;}
+
+.productCard{
+    background-color: beige;
+    border-radius: 20px;
+    width: 250px;
+    margin: 30px auto;
+}
+
+.productImage{
+    border-radius: 20px 20px 0 0;
+}
+
+.foot{
+    background-color: #2B2343;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: #E9E6F0;
+}
+
+.signup_details{
+    width: 400px;
+    background-color: #EEEFF1;
+    border: solid 1px #3c404a2f;
+    border-radius: 15px;
+    color: #3d414a;
+    padding: 25px;
+    margin: 50px auto;
+    
+    /*margin: auto;
+    border: solid 3px purple;
+    padding: 20px 50px 20px 50px; /* top right left bottom --> in one go style, 
+    we can also use same style for the margin above*/  
+}
+
+.signup_details button:hover{
+    background-color: #4210b8;
+    color: aqua;
+    cursor: pointer;
+}
+
+.field{
+    width: 90%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.field:focus{
+    outline: solid 2px greenyellow;
+}
+
+/* form a{
+    color: #4210b8;
+    text-decoration: none;
+} */
+
+button{
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+.homepage_video{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 20px;
+}
