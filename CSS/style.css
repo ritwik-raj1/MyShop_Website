@@ -58,7 +58,7 @@ body{
 }
 #Intro a:hover{cursor: pointer; background-color: aquamarine; color:#2B2343}
 
-main{
+#product_intro{
     display: flex;
 }
 
@@ -151,8 +151,37 @@ button{
 }
 
 .homepage_video{
-    display: block;
     margin: auto;
     width: 40%;
     border-radius: 20px;
+}
+
+
+/* *****************************All Suits*************************** */
+#product_container{
+    width: 1260px;
+    height: 1260px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* We can use repeat(2, 1fr) --> fr stands for fragments, 1fr 50% 1fr. 1fr 200px 2fr ----> These are other way to use above grid things */
+
+    /* grid-template-areas: 
+    "header header header"
+    "main main sidebar"
+    "p1 p2 p3"
+    "footer footer footer" */
+
+    gap: 20px;
+}
+
+.suit{
+    background-color: #fb6376;
+    height: 100%;
+}
+
+.vertical{
+    grid-row: 1/3;
+    grid-column: 3/4;
 }
